@@ -36,7 +36,7 @@
      Forgot that command also? No worries! just execute: #yum group list hidden
  17. If there are any filesystem related task, try to solve that task at first. Then reboot to see if your system boot properly or not.
  18. Give extra attention on time
- 19. Always go through and practice each RHCSA objectives unless you feel absolutely ready
+ 19. Always go through and **practice** each RHCSA objectives unless you feel absolutely ready
  20. Don't consult guide if you forgot anything. Just learn to use man/info/help/locate/find/rpm -qd command
 
 # Advices
