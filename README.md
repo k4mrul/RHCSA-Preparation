@@ -4,8 +4,8 @@
 2.  Create another vm. Now setup the following servers
       - Setup own LDAP server https://goo.gl/6zSgHC
       - Setup own NFS server https://goo.gl/8W6KU8
-3.  Don't rely on gui. Instead of using authconfig-gtk, use authconfig-tui
-4.  For managing firewall, don't rely on gui. Use #firewall-cmd command
+3.  Don't rely on gui. 
+4.  For managing firewall, don't rely on gui also. Use #firewall-cmd command
 5.  Know how to use man/info/help/locate/find/rpm -qd command
 6.  Have clear understand on linux filesystem and how to work on lvm
 7.  Have clear understand on filesystem extend, reduce/resize command. For example: extend the size (by using logical extent or specific     size)reduce size of partition/logical volume, resize to exact size without hampering the files on the filesystem, check the             filesystem health, labelling etc. 
