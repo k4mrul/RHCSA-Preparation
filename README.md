@@ -4,7 +4,7 @@
 2.  Create another vm. Now setup the following servers
       - Setup own LDAP server https://goo.gl/6zSgHC
       - Setup own NFS server https://goo.gl/8W6KU8
-3.  Don't rely on gui. 
+3.  Don't rely on gui. If you want to ssh onto your guest vm from host, use ssh with -X option 
 4.  For managing firewall, don't rely on gui also. Use #firewall-cmd command
 5.  Know how to use man/info/help/locate/find/rpm -qd command
 6.  Have clear understand on linux filesystem and how to work on lvm
@@ -43,7 +43,7 @@
   - Use nmcli to setup your network
   - Install some useful package first. For example: yum-utils, bash-completion, setroubleshoot-server etc
   - Make sure that you know how to add new repository. Use yum-config-manager
-  - In exam hall, don't be stress. Just chill. Also don't be hurry. If you complete early, just reboot the machine couples of time and check every question answers for error.
+  - In exam hall, don't be stress. Just relax. Also don't hurry. If you complete early, just reboot the machine couples of time and reveiw the question answers.
   
   
   Good luck!
