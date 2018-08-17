@@ -40,7 +40,7 @@
  20. Don't consult guide if you forgot anything. Just learn to use man/info/help/locate/find/rpm -qd command
 
 # Advices
-  - Use nmcli to setup your network
+  - Use nmcli to setup network
   - Install some useful package first. For example: yum-utils, bash-completion, setroubleshoot-server etc
   - Make sure that you know how to add new repository. Use yum-config-manager
   - In exam hall, don't be stress. Just relax. Also don't hurry. If you complete early, just reboot the machine couples of time and reveiw the question answers.
