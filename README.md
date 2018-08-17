@@ -16,7 +16,7 @@
 12. Every service must servive reboot. So give extra care about persistency. Reboot reboot reboot & check if everything working or not
 13. Install bash-completion package (might be already installed) which help you to autocomplete any command
 14. If you forgot how to setup cronjob, just look inside /etc/crontab file
-15. Master on:
+15. Give extra care on:
       - File system partitioning (Use UUID when you add your file system in /etc/fstab for persistency)
       - ACL
       - firewall-cmd (with --permanent option)
