@@ -1,12 +1,9 @@
-# RHCSA-Preparation
-
 1.  Setup your own lab within vmware/virtualbox
-      -Use CentOS 7 or download free copy of RHEL from redhat
+      - Use CentOS 7 or download free copy of RHEL from redhat
 
 2.  Create another vm. Now setup the following servers
-      -Setup own LDAP server https://goo.gl/6zSgHC
-      -Setup own NFS server https://goo.gl/8W6KU8
- 
+      - Setup own LDAP server https://goo.gl/6zSgHC
+      - Setup own NFS server https://goo.gl/8W6KU8
 3.  Don't rely on gui. Instead of using authconfig-gtk, use authconfig-tui
 4.  For managing firewall, don't rely on gui. Use #firewall-cmd command
 5.  Know how to use man/info/locate/find/rpm -qd command
@@ -19,16 +16,20 @@
 12. Every service must servive reboot. So give extra care about persistency. Reboot reboot reboot & check if everything working or not
 13. Install bash-completion package (might be already installed) which help you to autocomplete any command
 14. If you forgot how to setup cronjob, just look inside /etc/crontab file
-15. Master on 
-      -File system partitioning (Use UUID when you add your file system in /etc/fstab for persistency)
-      -ACL
-      -firewall-cmd (with --permanent option)
-      -setuid/setgid
-      -File/folder permission
-      -Selinux
-      -Seboolean (with -P option)
-      -break root password
-      -etc
+15. Master on:
+      - File system partitioning (Use UUID when you add your file system in /etc/fstab for persistency)
+      - ACL
+      - firewall-cmd (with --permanent option)
+      - setuid/setgid
+      - File/folder permission
+      - Selinux
+      - Seboolean (with -P option)
+      - breaking root password
+      - ldap
+      - autofs
+      - nfs
+      - etc
+
  16. Instead of memorizing big command for managing virtualization, simply remember the following command:
      #yum groups install "Virtualization Hypervisor" "Virtualization Client" "Virtualization Tools"  "Virtualization Platform"
      Forgot that command also? No worries! just execute: #yum group list hidden
@@ -36,16 +37,13 @@
  18. Give extra attention on time
  19. Always go through RHCSA objectives unless you feel absolutely ready
  20. Don't consult guide if you forget anything. Just learn to use man/info/locate/find/rpm -qd command
-      
-  =======================================
-  #Some advices
-  =======================================
-  -Use nmcli to setup your network
-  -Install some useful package first. For example: yum-utils, bash-completion, setroubleshoot-server etc
-  -Make sure that you know how to add new repository. Use yum-config-manager
+
+# Advices
+   - Use nmcli to setup your network
+  - Install some useful package first. For example: yum-utils, bash-completion, setroubleshoot-server etc
+  - Make sure that you know how to add new repository. Use yum-config-manager
   
   
   Good luck!
   
   (last updated on 17-Aug-18)
-
