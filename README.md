@@ -28,7 +28,7 @@
       - ldap
       - autofs
       - nfs
-      - etc
+      - network setup
 
  16. Instead of memorizing big command for managing virtualization, simply remember the following command:
      #yum groups install "Virtualization Hypervisor" "Virtualization Client" "Virtualization Tools"  "Virtualization Platform"
